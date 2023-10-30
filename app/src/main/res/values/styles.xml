@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RedDatePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#FF0000</item>
+    </style>
+    <style name="RedTimePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#FF0000</item>
+    </style>
+    <style name="CustomAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+</resources>
